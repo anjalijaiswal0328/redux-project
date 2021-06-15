@@ -12,7 +12,7 @@ export default function About() {
     setTimeout(() => {
       dispatch({
         type: UPDATE_TITLE,
-        payload: "HEyy UNIVERSE",
+        payload: "HEllo UNIVERSE",
       });
     }, 1000);
   }, []);
